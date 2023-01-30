@@ -1,0 +1,27 @@
+<div class="col-md-3 my-3 card-note" id="<%- idNode%>">
+    <form class="card">
+        <div class="card-header d-flex justify-content-between">
+            <div class="title-header" name="titleheader">
+                <textarea class="form-control text-header" name="title" placeholder="Title"
+                    ><%- title%></textarea>
+            </div>
+            <button type="button" class="btn btn-light del-notes align-self-center"><img src="./img/del.png"
+                    alt="delete"></button>
+        </div>
+        <div class="card-body">
+            <textarea class="form-control text-card" name='textcard' placeholder="Comment here"
+                ><%- textNode%></textarea>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+            <div class="text-muted align-self-center">
+                <%- date%>
+            </div>
+            <div>
+                <button type="button" class="btn btn-light edit">Edit</button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-light saveEdit">Save notes</button>
+            </div>
+        </div>
+    </form>
+</div>

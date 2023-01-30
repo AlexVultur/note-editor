@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+.text-card {
+    height: 150px;
+    border: none;
+    resize: none;
+}
+
+.text-header {
+    background-color: transparent;
+    border: none;
+    height: 38px;
+    resize: none;
+}
+
+.del-notes img {
+    height: 16px;
+    vertical-align: unset;
+}
+
+.title-header {
+    width: 290px;
+}
+
+
+.text-muted {
+    font-size: 14px;
+}
+
+.edit, .saveEdit, .add, .del-notes {
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    background-color: rgba(0, 0, 0, 0.08) ;
+}
+
+.del-notes {
+    padding: 6px 6px;
+    height: 30px;
+}
